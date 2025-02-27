@@ -1,0 +1,45 @@
+.city{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    justify-content: space-around;
+    background-image:    url("/frontend/utils/neutral.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 10px;
+    border-radius: 12px ;
+    transition: all 0.9s ease-in-out;
+  
+}
+.weather-city:hover .city{
+    background-position: center;
+    
+}
+
+.city-info{
+ display: flex ;
+ width: 100%;
+ justify-content: space-between;
+ text-align: start;
+ z-index: 1;
+ backdrop-filter: brightness(65%);
+ padding: 50px 24px;
+}
+.city-info h2{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 4px;
+}
+.city-info h3{
+    color: white;
+    font-weight: bold;
+    font-size: 75px;
+     display: flex;
+    align-items: end
+}
+.city-info p{
+    color: rgb(255, 250, 250);
+    font-size: 18px;
+    letter-spacing: 0.025em;
+}

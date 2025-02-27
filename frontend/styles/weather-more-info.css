@@ -1,0 +1,22 @@
+.weather-more-info{
+    display: flex;
+  flex-direction: column;
+   gap: 15px;
+  text-align: start;
+  padding: 18px 10px;
+  background-color: #202b3b;
+  border-radius: 12px;
+
+}
+
+.weaterInfo h5{
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.025em;
+    font-weight: lighter;
+}
+.weaterInfo span{
+    color: white;
+  font-weight: 500;
+  font-size: 18px;
+}

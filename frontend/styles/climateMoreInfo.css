@@ -1,0 +1,28 @@
+.climate-more-info{
+    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.climate-more-info  .temperatures{
+ display:  flex;
+ flex-wrap: wrap;
+  background-color: transparent;
+ border: 1px solid rgb(119, 119, 119);
+ align-items: center;
+ justify-content: center;
+ padding: 14px 0px;
+ border-radius: 12px ;
+
+}
+.temperatures p{
+    display: flex; 
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 0.025em;
+}
+.temperatures p span{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}

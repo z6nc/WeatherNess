@@ -1,0 +1,104 @@
+#fugaz {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+#fugaz::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 3px;
+  border-radius: 25px;
+  height: 150px;
+  rotate: 60deg;
+  background: linear-gradient(to top, rgba(255, 255, 255, 0.87), #24242434);
+  z-index: 1;
+  animation: fugaz 5s linear infinite;
+  opacity: 0;
+
+}
+
+#fugaz2 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
+  #fugaz2::before {
+    content: "";
+    position: absolute;
+    top: -20px;
+    left: 40%;
+    width: 3px;
+    border-radius: 25px;
+    height: 150px;
+    rotate: 60deg;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.87), #24242434);
+    z-index: 1;
+    animation: fugaz 5s linear infinite;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+#fugaz3 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
+  #fugaz3::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 3px;
+    border-radius: 25px;
+    height: 150px;
+    rotate: 60deg;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.87), #24242434);
+    z-index: 1;
+    animation: fugaz 2s linear infinite;
+    animation-delay: 8s;
+    opacity: 0;
+    -webkit-animation: fugaz 2s linear infinite;
+}
+#fugaz4 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
+  #fugaz4::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    width: 3px;
+    border-radius: 25px;
+    height: 150px;
+    rotate: 60deg;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.87), #24242434);
+    z-index: 1;
+    animation: fugaz 7s linear infinite;
+    animation-delay: 8s;
+    opacity: 0;
+}
+
+@keyframes fugaz {
+    0% {
+      transform: translateY(-50%); /* Comienza más arriba */
+    }
+    50% {
+      transform: translateY(50%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(200%); /* Termina más abajo */
+      opacity: 0;
+    }
+  }

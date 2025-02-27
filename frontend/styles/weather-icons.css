@@ -1,0 +1,22 @@
+.weather-icons{
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+    justify-content: center ;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+.weather-icons .icon{
+ box-shadow: 1px 1px 4px rgba(128, 128, 128, 0.61);
+ border-radius: 10%;
+ width: 100%;
+
+}
+
+.weather-icons .icon img{
+    backdrop-filter: blur(40px);
+ aspect-ratio: 30/20;
+
+}

@@ -1,0 +1,45 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Modo claro (por defecto) */
+:root {
+  --bg-color: #0b131e;
+  --text-color: rgb(255, 255, 255);
+  --Subtitulos: #9399a2;
+}
+
+/* Aplicamos las variables */
+body {
+  color: var(--text-color);
+  background: linear-gradient(to bottom, #020617 40%, #05103b);
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  background-size: cover;
+  background-position: bottom;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  position: relative;
+  padding: 40px;
+}
+
+
+.background-container{
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  width: 100%;
+  filter: brightness(0.9);
+  height: 100vh;
+  -webkit-filter: brightness(0.9);
+}
+.container{
+  max-width: 970px;
+  margin: 0 auto; /* Centra el contenido */
+  display: flex;
+  flex-direction: column; /* Apila los elementos verticalmente */
+  min-height: 100vh; /* Asegura que el body ocupe al menos toda la altura de la pantalla */
+}

@@ -1,0 +1,25 @@
+
+.climate-info{
+     background-color: transparent;
+     border: 1px solid rgb(119, 119, 119);
+     text-align: start;
+     padding: 17px;
+     margin-bottom: 10px;
+     border-radius: 12px ;
+    
+}
+
+.climate-info h4 {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 4px;
+    letter-spacing: 0.025em;
+    font-weight: lighter;
+
+}
+.climate-info p{
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.025em;
+    font-weight: 500;
+}

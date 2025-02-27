@@ -1,0 +1,16 @@
+.climate-snow-info{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+.climate-snow-info .temperatures{
+    display:  flex;
+    flex-wrap: wrap;
+     background-color: transparent;
+    border: 1px solid rgb(119, 119, 119);
+    align-items: center;
+    justify-content: center;
+    padding: 14px 0px;
+    border-radius: 12px ;
+}

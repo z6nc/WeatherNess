@@ -1,0 +1,77 @@
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 9px;
+  height: auto;
+}
+.hero-section h1 {
+  font-size: 120px;
+  font-weight: bolder;
+ 
+   
+}
+.hero-section p {
+  font-size: 17px;
+  margin-bottom: 16px;
+}
+form {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  background-color:transparent;
+  width: 70%;
+  margin: auto;
+  border-radius: 4px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.712);
+  box-shadow: 4px 3px 1px 0px #fffefe;
+
+}
+
+
+form input {
+  background-color: transparent;
+  width: 80%;
+  padding: 20px 20px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  backdrop-filter: blur(90px);
+ 
+}
+form input:focus {
+  outline: none;
+}
+form input::placeholder {
+  color: white;
+}
+form button {
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-section {
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .hero-section h1 {
+    font-size: 40px;
+  }
+  form {
+    width: 100%;
+  }
+  form input {
+    padding: 15px 15px;
+  }
+  form button {
+    font-size: 15px;
+  }
+}

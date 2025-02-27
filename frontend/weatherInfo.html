@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="icon"
+      href="/frontend/utils/LogoWeatherIcon.png"
+      type="image/png"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/frontend/styles/global.css">
+    <link rel="stylesheet" href="/frontend/styles/index.css">
+    <link rel="stylesheet" href="/frontend/styles/navbar.css">
+    <link rel="stylesheet" href="/frontend/styles/climateMoreInfo.css">
+    <link rel="stylesheet" href="/frontend/styles/weatherInfo.css">
+    <link rel="stylesheet" href="styles/weatherCity.css">
+     <link rel="stylesheet" href="styles/weather-more-info.css">
+    <link rel="stylesheet" href="styles/infoClima.css">
+    <link rel="stylesheet" href="/frontend/styles/fugazAnimation.css">
+   <link rel="stylesheet" href="/frontend/styles/starAnimation.css">
+    <link rel="stylesheet" href="/frontend/styles/climateSnowInfo.css">
+    <title>WeatherNess</title>
+</head>
+
+<body>
+    <span id="fugaz"></span>
+    <span id="fugaz2"></span>
+    <span id="fugaz3"></span>
+    <span id="fugaz4"></span>
+    <span id="star1"></span>
+    <span id="star2"></span>
+    <span id="star3"></span>
+    <span id="star4"></span>
+    <span id="star5"></span>
+    <span id="star6"></span>
+      <span id="star7"></span>
+   <div class="container">
+    <header>
+        <nav>
+            <a href="index.html" class="title-navbar">🌤️</a>
+             
+              <a  href="#" class="social-media">
+                  <span>
+                      <svg fill="currentColor" viewBox="0 0 24 24" width="19" height="19">
+                          <path
+                            d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                          ></path>
+                        </svg>
+                  </span>
+                  <div class="social-info">
+                      <p>Github ⭐️ </p>
+                      <p>Deja tu estrella ⭐️</p>
+                  </div>
+              </a>
+          </nav>
+    </header>
+    <main id="weather-info">
+        <section class="weather-city">
+            <article class="city">
+                <div class="city-info">
+                    <div>
+                        <h2 id="nombreCiudad" class="animate-pulse"></h2>
+                        <p>Chance of rain : <span id="Probabilidad"></span></p>
+                    </div>
+                    <h3 id="actual"></h3>
+                </div>
+            </article>
+            
+                <div class="climate-info">
+                    <h4>Informacion</h4>
+                    <p id="descripcion"></p>
+                </div>
+
+                <div class="climate-more-info">
+                  <div class="temperatures">
+                        <p>Maxima: <span id="maxima"></span></p>
+                    </div>
+
+                    <div class="temperatures">
+                        <p>Minima: <span id="minina"></span></p>
+                    </div>
+                    <div class="temperatures">
+                        <p>Índice UV: <span id="indiceUV"></span></p>
+                    </div>
+
+                    <div class="temperatures">
+                        <p>Humedad: <span id="humedad"></span></p>
+                    </div>
+                </div>
+
+                 <div class="climate-snow-info">
+                    <div class="temperatures">
+                        <p>snow: <span id="snow">0</span></p>
+                    </div>
+
+                    <div class="temperatures">
+                        <p>preciptype: <span id="preciptype">Rain</span></p>
+                    </div>
+                    <div class="temperatures">
+                        <p>Solar energy <span id="solarEnergy">27.7</span></p>
+                    </div>
+
+                    
+                 </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>WeatherNess  🤍 2025</p>
+    </footer>
+</div>
+</body>
+<script src="/frontend/js/index.js" type="module"></script>
+
+</html>

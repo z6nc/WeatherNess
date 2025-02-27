@@ -1,0 +1,87 @@
+#star1,
+#star2,
+#star3 {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+#star1::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  top: 9px;
+  height: 2px;
+  background: white;
+  box-shadow: 200px 200px white;
+}
+#star2::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  top: 90px;
+  rotate: 10deg;
+  left: 70px;
+  background: white;
+  box-shadow: 200px 200px white;
+}
+#star3::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    top: 50%;
+    rotate: 10deg;
+    left: 50%;
+    background: white;
+    box-shadow: 200px 200px white;
+  }
+  #star4::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    top: 20%;
+    rotate: 10deg;
+    left: 80%;
+    background: white;
+    box-shadow: 200px 200px white;
+  }
+  #star5::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    top: 70%;
+    rotate: 10deg;
+    left: 80%;
+    background: white;
+    box-shadow: 200px 200px white;
+  }
+  #star6::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    top: 70%;
+    rotate: 10deg;
+    left: 10%;
+    background: white;
+    box-shadow: 200px 150px white;
+  }
+    #star7::before {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 2px;
+        top: 70%;
+        rotate: 10deg;
+        left: 40%;
+        background: white;
+        box-shadow: 200px 200px white;
+    }
+
+  
