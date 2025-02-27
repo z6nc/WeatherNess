@@ -18,7 +18,7 @@ Aplicación web que muestra información meteorológica en tiempo real utilizand
 ## 📦 Instalación y Uso
 1. Clona este repositorio:
    ```sh
-   git clone https://github.com/tu-usuario/WeatherNess.git
+   git clone https://github.com/z6nc/WeatherNess.git
    ```
 2. Entra en el directorio del proyecto:
    ```sh
