@@ -13,7 +13,7 @@ Aplicación web que muestra información meteorológica en tiempo real utilizand
 ## 🛠 Tecnologías Utilizadas
 - **Frontend:** HTML, CSS, JavaScript
 - **Backend:** Node.js, Express
-- **API:** OpenWeatherMap (o cualquier otra API de clima que uses)
+- **API:** visualcrossing (o cualquier otra API de clima que uses)
 
 ## 📦 Instalación y Uso
 1. Clona este repositorio:
